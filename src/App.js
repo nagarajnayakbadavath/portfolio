@@ -33,11 +33,5 @@ const App = () => {
   );
 };
 
-const root = ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
-);
+export default App;
 
